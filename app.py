@@ -22,7 +22,7 @@ import urllib.parse
 
 app = Flask(__name__)
 
-KEY_LIMIT = 200
+KEY_LIMIT = 500
 tracker = defaultdict(lambda: [0, time.time()])  # IP based tracking
 
 # Store which accounts have liked which UIDs (temporary memory)
